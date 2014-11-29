@@ -33,13 +33,6 @@ def timer():
 
 try:
 	timer()
+#Pressing CTRL-C interrupts and stops the timer.
 except KeyboardInterrupt:
 	print('\n\nKeyboard interruption. ')
-
-
-#NOTES:
-#
-#AUTHOR: Tony Kyriakidis.
-#CREATION DATE & TIME: 
-#
-#TO-DO:
